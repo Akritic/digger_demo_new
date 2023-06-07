@@ -1,0 +1,8 @@
+projects:
+- name: dev
+  dir: ./dev
+  include_patterns: ["modules/**"]
+  name: prod
+- dir: prod
+  include_patterns: ["modules/**"]
+  exclude_patterns: ["modules/moduleA/**"]
