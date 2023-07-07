@@ -1,3 +1,3 @@
-resource "null_resource" "test_modb" {    
+resource "null_resource" "test_modd" {    
 }
 
